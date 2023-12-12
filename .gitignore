@@ -557,5 +557,7 @@ FodyWeavers.xsd
 # User-defined ignores
 
 lib/*.dll
+NoiseSuppression.dll
+NoiseSuppression.zip
 
 # End of user-defined ignores
