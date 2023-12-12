@@ -6,6 +6,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 		NuGet.Config = NuGet.Config
+		CHANGELOG.md = CHANGELOG.md
+		generate_mod_package.sh = generate_mod_package.sh
+		LICENSE.txt = LICENSE.txt
+		manifest.json = manifest.json
 	EndProjectSection
 EndProject
 Global
