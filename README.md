@@ -26,10 +26,10 @@ Once you've installed the mod, you can change your suppression state using the f
 
 ## Installation
 
-Same as every other project
+Same as every other project:
 
 - Thunderstore
-- Manual
+- Manual, just drop the DLL into the plugins dir
 
 ## Contributing
 
