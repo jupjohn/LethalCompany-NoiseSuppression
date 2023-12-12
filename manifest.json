@@ -1,0 +1,7 @@
+{
+    "name": "NoiseSuppression",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/jupjohn/LethalCompany-NoiseSuppression",
+    "description": "Enables noise suppression on microphones in Lethal Company ",
+    "dependencies": []
+}
