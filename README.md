@@ -16,7 +16,13 @@ This has been tested with the following Lethal Company versions, but it'll most 
 
 ## How to use
 
-You don't need to do anything special: simply having this mod enabled will ensure that
+Once you've installed the mod, you can change your suppression state using the following keys:
+
+- `0`: toggle noise suppression on/off
+- `PageUp`: enable noise suppression
+- `PageDown`: disable noise suppression
+- `8`: decrease the "wet mix" of microphone audio into suppressed audio by 10%
+- `9`: increase the "wet mix" of microphone audio into suppressed audio by 10%
 
 ## Installation
 
