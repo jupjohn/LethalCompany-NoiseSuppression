@@ -1,7 +1,7 @@
 # Noise Suppression (for Lethal Company)
 
 Sick of hearing your friends' mouth noises when you're being chased by a bracken? \
-Would you rather not listen to your mate's TikToks while he's "watching the monitors" back at the ship?
+Would you rather not listen to your mate's TikToks while he's "watching the monitors" back at the ship? (yes, I'm talking about you Eugene 👿)
 
 Listen no more with the NoiseSuppression mod!
 
@@ -9,7 +9,7 @@ As it turns out, the underlying audio engine has support for RNNoise noise suppr
 
 ## Compatability
 
-This has been tested with the following Lethal Company versions, but will most likely work with future versions unless the backend audio engine changes.
+This has been tested with the following Lethal Company versions, but it'll most likely work with future versions unless the backend audio engine changes.
 
  - v40
  - v45
