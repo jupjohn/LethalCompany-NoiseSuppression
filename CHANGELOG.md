@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1
+
+Summary: Fixed key inputs not working as they should
+
+- Fixed holding keys causing actions to repeat (used BepInEx's input system wrapper instead of `Input.current[keyCode]`)
+
 ## 1.0.0
 
 Summary: Initial code dump, with the most basic functionality
