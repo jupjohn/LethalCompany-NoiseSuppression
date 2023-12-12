@@ -59,7 +59,7 @@ public class PlayerControllerInputPatch
         }
     }
 
-    private static void SetSuppressionState(bool state)
+    internal static void SetSuppressionState(bool state)
     {
         _isEnabled = state;
 
