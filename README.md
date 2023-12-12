@@ -38,11 +38,11 @@ I may be a .NET developer, but Unity's engine code is an unknown to me so who kn
 
 You'll need to copy the following DLLs out of your game directory (`Lethal Company/Lethal Company_Data/Managed`) into the `/lib` directory of this solution
 
- - `Assembly-CSharp.dll`
- - `DissonanceVoip.dll`
- - `Unity.InputSystem.dll`
- - `Unity.Netcode.Runtime.dll`
- - `UnityEngine.dll`
+- `Assembly-CSharp.dll`
+- `DissonanceVoip.dll`
+- `Unity.InputSystem.dll`
+- `Unity.Netcode.Runtime.dll`
+- `UnityEngine.dll`
 
 ## License
 
