@@ -1,8 +1,8 @@
+using BepInEx;
 using Dissonance.Config;
 using GameNetcodeStuff;
 using HarmonyLib;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 namespace NoiseSuppression.Patches;
 
@@ -28,31 +28,31 @@ public class PlayerControllerInputPatch
             return;
         }
 
-        if (Keyboard.current[ToggleSuppressionKey].IsPressed())
+        if (UnityInput.Current.GetKeyDown(ToggleSuppressionKey))
         {
             SetSuppressionState(!_isEnabled);
             return;
         }
 
-        if (Keyboard.current[EnableSuppressionKey].IsPressed())
+        if (UnityInput.Current.GetKeyDown(EnableSuppressionKey))
         {
             SetSuppressionState(true);
             return;
         }
 
-        if (Keyboard.current[DisableSuppressionKey].IsPressed())
+        if (UnityInput.Current.GetKeyDown(DisableSuppressionKey))
         {
             SetSuppressionState(false);
             return;
         }
 
-        if (Keyboard.current[IncreaseSuppressionKey].IsPressed())
+        if (UnityInput.Current.GetKeyDown(IncreaseSuppressionKey))
         {
             AdjustWetMix(SuppressionStepPercentage);
             return;
         }
 
-        if (Keyboard.current[DecreaseSuppressionKey].IsPressed())
+        if (UnityInput.Current.GetKeyDown(DecreaseSuppressionKey))
         {
             AdjustWetMix(-SuppressionStepPercentage);
             return;

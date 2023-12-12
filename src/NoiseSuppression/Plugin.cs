@@ -15,11 +15,12 @@ public class Plugin : BaseUnityPlugin
         // PlayerPrefs.SetInt("Dissonance_Audio_BgDenoise_Enabled", 0);
         // PlayerPrefs.SetFloat("Dissonance_Audio_BgDenoise_Amount", 0);
 
-        var toggleSuppressionKey = Config.Bind("Suppression", "ToggleKey", "0", "Toggle noise suppression");
+        // TODO: maybe inject into InputAction when I understand that system
+        var toggleSuppressionKey = Config.Bind("Suppression", "ToggleKey", "Alpha0", "Toggle noise suppression");
         var enableSuppressionKey = Config.Bind("Suppression", "EnableKey", "PageUp", "Enable noise suppression");
         var disableSuppressionKey = Config.Bind("Suppression", "DisableKey", "PageDown", "Disable noise suppression");
-        var decreaseSuppressionKey = Config.Bind("Suppression", "DecreaseKey", "8", "Decrease noise suppression");
-        var increaseSuppressionKey = Config.Bind("Suppression", "IncreaseKey", "9", "Increase noise suppression");
+        var decreaseSuppressionKey = Config.Bind("Suppression", "DecreaseKey", "Alpha8", "Decrease noise suppression");
+        var increaseSuppressionKey = Config.Bind("Suppression", "IncreaseKey", "Alpha9", "Increase noise suppression");
 
         PlayerControllerInputPatch.ToggleSuppressionKey = toggleSuppressionKey.Value;
         PlayerControllerInputPatch.EnableSuppressionKey = enableSuppressionKey.Value;
