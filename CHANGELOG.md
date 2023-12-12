@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2
+
+- Mod now enabled noise suppression on first launch
+ 
 ## 1.0.1
 
 Summary: Fixed key inputs not working as they should
