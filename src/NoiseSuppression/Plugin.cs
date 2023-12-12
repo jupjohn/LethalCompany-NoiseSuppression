@@ -13,7 +13,7 @@ public class Plugin : BaseUnityPlugin
     {
         // TODO: reset profile on shutdown to prevent uninstalling mod keeping suppression active
         // PlayerPrefs.SetInt("Dissonance_Audio_BgDenoise_Enabled", 0);
-        // PlayerPrefs.SetFloat("Dissonance_Audio_BgDenoise_Enabled", 0);
+        // PlayerPrefs.SetFloat("Dissonance_Audio_BgDenoise_Amount", 0);
 
         var toggleSuppressionKey = Config.Bind("Suppression", "ToggleKey", "0", "Toggle noise suppression");
         var enableSuppressionKey = Config.Bind("Suppression", "EnableKey", "PageUp", "Enable noise suppression");
